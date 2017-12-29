@@ -1,102 +1,102 @@
-local L = BigWigs:NewBossLocale("Argus the Unmaker", "ptBR")
+local L = BigWigs:NewBossLocale("Argus, o Descriador", "ptBR")
 if not L then return end
 if L then
-	--L.combinedBurstAndBomb = "Combine Soulburst and Soulbomb"
-	--L.combinedBurstAndBomb_desc = "|cff71d5ffSoulbombs|r are always applied in combination with |cff71d5ffSoulbursts|r. Enable this option to combine those two messages into one."
+	--L.combinedBurstAndBomb = "Juntar Detonação da Bomba Anímica e Bomba Anímica"
+	--L.combinedBurstAndBomb_desc = "|cff71d5ffBomba Anímica|r será mostrada da mesma maneira que a |cff71d5ffDetonação de Bomba Anímica|r. Habilite esta opção juntar as duas habilidades do chefe em apenas uma mensagem."
 
-	--L.custom_off_always_show_combined = "Always show the combined Soulburst and Soulbomb message"
-	--L.custom_off_always_show_combined_desc = "The combined message won't be displayed if you get the |cff71d5ffSoulbomb|r or the |cff71d5ffSoulburst|r. Enable this option to always show the combined message, even when you're affected. |cff33ff99Useful for raid leaders.|r"
+	--L.custom_off_always_show_combined = "Sempre mostrar a mensagem da Bomba Anímica combinada com a Detonação da Bomba Anímica"
+	--L.custom_off_always_show_combined_desc = "A mensagem de combinação não irá aparecer se você for afetado por |cff71d5ffBomba Anímica|r ou a |cff71d5ffDetonação de Bomba Anímica|r. Habilite esta opção para sempre ver a mensagem de combinação, mesmo caso tenha sido afetado. |cff33ff99Útil para Líderes da Raide.|r"
 
-	--L.fear_help = "Sargeras' Fear Combination"
-	--L.fear_help_desc = "Say a special message if you're afflicted by |cff71d5ffSargeras' Fear|r and |cff71d5ffSoulblight|r/|cff71d5ffSoulburst|r/|cff71d5ffSoulbomb|r/|cff71d5ffSentence of Sargeras|r."
+	--L.fear_help = "Combinação do Medo de Sargeras'"
+	--L.fear_help_desc = "Enviar uma mensagem especial caso esteja afetado por |cff71d5ffSargeras' Medo|r e |cff71d5ffAlma Volátil|r/|cff71d5ffDetonação da Bomba Anímica|r/|cff71d5ffBomba Anímica|r/|cff71d5ffSentença de Sargeras|r."
 
-	--L[257931] = "Fear" -- short for Sargeras' Fear
-	--L[248396] = "Blight" -- short for Soulblight
-	--L[251570] = "Bomb" -- short for Soulbomb
-	--L[250669] = "Burst" -- short for Soulburst
-	--L[257966] = "Sentence" -- short for Sentence of Sargeras
+	--L[257931] = "Medo" 
+	--L[248396] = "Alma" 
+	--L[251570] = "Bomba" 
+	--L[250669] = "Detonação" 
+	--L[257966] = "Sentença" 
 
-	--L.stage2_early = "Let the fury of the sea wash away this corruption!"
-	--L.stage3_early = "No hope. Just pain. Only pain!"
+	--L.stage2_early = "Deixe a fúria dos mares varrer esta corrupção!"
+	--L.stage3_early = "Sem esperança. Só dor. Somente dor!"
 
-	--L.gifts = "Gifts: %s (Sky), %s (Sea)"
-	--L.burst = "|T1778229:15:15:0:0:64:64:4:60:4:60|tBurst:%s" -- short for Soulburst
-	--L.bomb = "|T1778228:15:15:0:0:64:64:4:60:4:60|tBomb:%s" -- short for Soulbomb
+	--L.gifts = "Presentes: %s (Céu), %s (Mar)"
+	--L.burst = "|T1778229:15:15:0:0:64:64:4:60:4:60|tDetonação:%s"
+	--L.bomb = "|T1778228:15:15:0:0:64:64:4:60:4:60|tBomba:%s"
 
-	--L.sky_say = "{rt5} Crit/Mast" -- short for Critical Strike/Mastery (stats)
-	--L.sea_say = "{rt6} Haste/Versa" -- short for Haste/Versatility (stats)
+	--L.sky_say = "{rt5} Critico/Maestria"
+	--L.sea_say = "{rt6} Aceleração/Versatilidade"
 
-	--L.bomb_explosions = "Bomb Explosions"
-	--L.bomb_explosions_desc = "Show a timer for Soulburst and Soulbomb exploding."
+	--L.bomb_explosions = "Bombas Explodiram"
+	--L.bomb_explosions_desc = "Mostrar um cronômetro para Detonações de Bombas Anímicas e Bombas Anímicas explodindo."
 end
 
 L = BigWigs:NewBossLocale("Aggramar", "ptBR")
 if L then
-	--L.wave_cleared = "Wave %d Cleared!" -- Wave 1 Cleared!
+	--L.wave_cleared = "Fase %d concluida!" 
 
-	--L.track_ember = "Ember of Taeshalach Tracker"
-	--L.track_ember_desc = "Display messages for each Ember of Taeshalach death."
+	--L.track_ember = "Opções da Técnica de Taeshalach"
+	--L.track_ember_desc = "Mostrar cada morte causada pela Técnica de Taeshalach"
 
-	--L.custom_off_ember_marker_desc = "Mark Ember of Taeshalach with {rt1}{rt2}{rt3}{rt4}{rt5}, requires promoted or leader.\n|cff33ff99Mythic: This will only mark adds in the current wave and above 45 energy.|r"
+	--L.custom_off_ember_marker_desc = "Marcar jogadores atingidos pela Técnica de Taeshalach com {rt1}{rt2}{rt3}{rt4}{rt5}, precisa ser assistente ou líder do grupo.\n|cff33ff99Mítico: Isso somente marcará monstros adicionais nesta fase que estão com o nível de energia superior a 45.|r"
 end
 
-L = BigWigs:NewBossLocale("The Coven of Shivarra", "ptBR")
+L = BigWigs:NewBossLocale("O Conciliábulo de Shivarra", "ptBR")
 if L then
-	--L.torment_of_the_titans_desc = "The Shivarra will force the titan souls to use their abilities against the players."
+	--L.torment_of_the_titans_desc = "Shivarra forçará as almas titânicas à usarem suas habilidades contra os jogadores."
 
-	--L.timeLeft = "%.1fs" -- s = seconds
-	--L.torment = "Torment: %s"
-	--L.nextTorment = "Next Torment: |cffffffff%s|r"
-	--L.tormentHeal = "Heal/DoT" -- something like Heal/DoT (max 10 characters)
-	--L.tormentLightning = "Lightning" -- short for "Chain Lightning" (or similar, max 10 characters)
-	--L.tormentArmy = "Army" -- short for "Spectral Army of Norgannon" (or similar, max 10 characters)
-	--L.tormentFlames = "Flames" -- short for "Flames of Khaz'goroth" (or similar, max 10 characters)
+	--L.timeLeft = "%.1fs" 
+	--L.torment = "Tormento: %s"
+	--L.nextTorment = "Próximo Tormento: |cffffffff%s|r"
+	--L.tormentHeal = "Cura/DpT" -- something like Heal/DoT (max 10 characters)
+	--L.tormentLightning = "Relâmpagos" -- short for "Chain Lightning" (or similar, max 10 characters)
+	--L.tormentArmy = "Exército" -- short for "Spectral Army of Norgannon" (or similar, max 10 characters)
+	--L.tormentFlames = "Chamas" -- short for "Flames of Khaz'goroth" (or similar, max 10 characters)
 end
 
-L = BigWigs:NewBossLocale("Eonar the Life-Binder", "ptBR")
+L = BigWigs:NewBossLocale("Eonar, a Mãe da Vida", "ptBR")
 if L then
-	--L.warp_in_desc = "Shows timers and messages for each wave, along with any special adds in the wave."
+	--L.warp_in_desc = "Mostra cronômetros e mensagens para cada fase, também mostra quando os inimigos especiais aparecem."
 
-	--L.top_lane = "Top"
-	--L.mid_lane = "Mid"
-	--L.bot_lane = "Bot"
+	--L.top_lane = "Em cima"
+	--L.mid_lane = "No meio"
+	--L.bot_lane = "Embaixo"
 
-	--L.purifier = "Purifier" -- Fel-Powered Purifier
-	--L.destructor = "Destructor" -- Fel-Infused Destructor
-	--L.obfuscator = "Obfuscator" -- Fel-Charged Obfuscator
-	--L.bats = "Fel Bats"
+	--L.purifier = "Purificador" -- Fel-Powered Purifier
+	--L.destructor = "Destruidor" -- Fel-Infused Destructor
+	--L.obfuscator = "Obsceno" -- Fel-Charged Obfuscator
+	--L.bats = "Morcegos"
 end
 
-L = BigWigs:NewBossLocale("Portal Keeper Hasabel", "ptBR")
+L = BigWigs:NewBossLocale("Guarda-Portal Hasabel", "ptBR")
 if L then
-	--L.custom_on_stop_timers = "Always show ability bars"
-	--L.custom_on_stop_timers_desc = "Hasabel randomizes which off-cooldown ability she uses next. When this option is enabled, the bars for those abilities will stay on your screen."
-	--L.custom_on_filter_platforms = "Filter Side Platform Warnings and Bars"
-	--L.custom_on_filter_platforms_desc = "Removes unnecessary messages and bars if you are not on a side platform. It will always show bars and warnings from the main Platform: Nexus."
-	--L.worldExplosion_desc = "Show a timer for the Collapsing World explosion."
-	--L.platform_active = "%s Active!" -- Platform: Xoroth Active!
-	--L.add_killed = "%s killed!"
+	--L.custom_on_stop_timers = "Sempre mostrar as barras de habilidade."
+	--L.custom_on_stop_timers_desc = "Hasabel lança magias aleatórias que não são esperadas. Quando esta opção está ativada, as barras correspondentes a esta habilidade continuarão na sua tela."
+	--L.custom_on_filter_platforms = "Avisos e barras das plataformas ao lado do filtro."
+	--L.custom_on_filter_platforms_desc = "Remove barras e mensagens desnecessárias caso não esteja nas plataformas laterais. Os avisos da plataforma principal nunca sairão: Nexus."
+	--L.worldExplosion_desc = "Mostra um cronômetro com o tempo restante para Mundo em Colapso"
+	--L.platform_active = "%s Active!" -- Platforma: Zoroth está ativo!
+	--L.add_killed = "%s Morto!"
 end
 
 L = BigWigs:NewBossLocale("Kin'garoth", "ptBR")
 if L then
-	--L.empowered = "(E) %s" -- (E) Ruiner
-	--L.gains = "Kin'garoth gains %s" -- Kin'garoth gains Empowered Ruiner
+	--L.empowered = "(E) %s" -- (E) Ruiner (Ruina'')
+	--L.gains = "Kin'garoth recebe %s" -- Kin'garoth gains Empowered Ruiner
 end
 
-L = BigWigs:NewBossLocale("Antoran High Command", "ptBR")
+L = BigWigs:NewBossLocale("Alto Comando Antorano", "ptBR")
 if L then
-	--L.felshieldActivated = "Felshield Activated by %s"
-	--L.felshieldUp = "Felshield Up"
+	--L.felshieldActivated = "Escudo vil foi ativado por %s"
+	--L.felshieldUp = "Escudo vil disponível"
 end
 
-L = BigWigs:NewBossLocale("Gorothi Worldbreaker", "ptBR")
+L = BigWigs:NewBossLocale("Quebramundo Garothi", "ptBR")
 if L then
-	--L.cannon_ability_desc = "Display Messages and Bars related to the 2 cannons on the Gorothi Worldbreaker's back."
+	--L.cannon_ability_desc = "Mostra mensagens relacionadas aos dois canhões posicionados nas costas de Garothi."
 
-	--L.missileImpact = "Annihilation Impact"
-	--L.missileImpact_desc = "Show a timer for the Annihilation missiles landing."
+	--L.missileImpact = "Impacto Aniquilador"
+	--L.missileImpact_desc = "Mostra um cronômetro para os mísseis aniquiladores que vão chegar ao chão."
 
-	--L.decimationImpact = "Decimation Impact"
-	--L.decimationImpact_desc = "Show a timer for the Decimation missiles landing."
+	--L.decimationImpact = "Impacto Dizimador"
+	--L.decimationImpact_desc = "Mostra um cronômetro para os mísseis dizimadores que vão chegar ao chão." -- (I hope this can help you guys. I loved the addon. Its complete. Hug. Bill)
 end
